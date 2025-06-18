@@ -1,0 +1,19 @@
+lamda:
+    	Its a ananoymous function which doesnt follow def pattern
+    	#syntax: lambda <argument>: <expression>
+    	#Example lambda a: a%2 == 0 
+
+FILTER:
+    	Select items which satifies the contdition
+    	Size of input and result may not be same
+    	Return only True/False( Boolean) 
+    	nums = [1, 2, 3, 4, 5]
+        evens = list(filter(lambda x: x % 2 == 0, nums))
+        # → [2, 4]
+Map:
+    	All the item is transformed
+    	Size of out is same as that of input
+    	Return transformed value
+    	temps_f = [32, 68, 212]
+		temps_c = list(map(lambda f: (f - 32) * 5/9, temps_f))
+		# → [0.0, 20.0, 100.0]
