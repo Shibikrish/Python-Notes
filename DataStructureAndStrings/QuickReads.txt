@@ -1,0 +1,54 @@
+String Methods
+	a.captalize() --> Make the first letter of string in capital
+	a.upper() --> make all the char string into upper case
+	a.lower() --> make all the char string into lower case
+	a.isnumeric() --> Return Boolean True or false( if given is numberic)
+	a.isalpha() --> return boolean True or false ( if given is a alphabet)
+	a.startswith(<any char>) --> if the string starts with specific character
+	a.endswith(<any char>) --> if the string ends with specific character
+    	a.replace(<search str>, <replacestr>) --> find and replace the string
+    	a.find(<search string>) --> to find particular search string is available
+    	a.lstrip() --> remove white sapce from left
+    	a.rstrip() --> remove white space from right
+    	a.strip() --> remove white space from both 
+    	a.split(<delimiter>) --> split the given string and store it in a list
+    	a.splitline() --> 
+    	a.join(other list)
+
+
+    Tuples:
+    	Its immutable ( i.e, cant add, remove or modify)
+    	Ordered
+    	Methods:
+    		tup.index(x) --> returns index of first occurance of the value x 
+    		tup.count(x) -->  Returns the number of times x appears.
+
+    List 
+    	its mutable
+    	Methods:
+    		a.append() --> append element to last of list
+    		a.extend(<list1>) --> Adds all element of list1 to end
+    		a.insert(i,x) --> insert x at ith index
+    		a.remove(x) --> Removes first occuranc of value x
+    		a.pop(<index>) --> Removes and returns element at index i 
+    		a.clear() --> Removes all the element in the lisr
+    		a.sort() --> sort the list in ascending order
+    		a.count(x) --> Return number of times x is available in the list
+    		a.reverse --> reverse the list in place
+    		a.copy() --> shallow copy of the lisre
+
+
+    Set:
+    	its mutable,
+    	Unordered 
+    	cannot accomdate duplicates
+    	Methods:
+    		set.add(x) --> adds element x in the set 
+    		set.udpate(<list>) --> add multiple elements in the list
+    		set.remove(x) --> Remove x raise error if x is not available 
+    		set.discard(x) --> Remove x will not raise error if x is not available 
+    		set.clear() --> removes all the element in the set
+    		set.pop --> Removes arbitary value 
+    		set.union(<other set>) --> merge into sing set 
+    		set.intersection(<other set>) --> elements comon in both the set
+    		set.difference(<other set>) --> Elements in set but not in other.  
